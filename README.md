@@ -31,8 +31,8 @@ const allReducers = combineReducers({
 ```
 &nbsp;
 
-*import `{ Provider }` from 'react-redux'; 
-> connects store to the App*
+*import `{ Provider }` from 'react-redux';* 
+> connects store to the App
 ```js
 ReactDOM.render(
   <Provider store = {store}>
@@ -43,15 +43,15 @@ ReactDOM.render(
 ```
 &nbsp;
 
-*import `{ useSelector }` from 'react-redux';  
-> extracting data from store*
+*import `{ useSelector }` from 'react-redux';*  
+> extracting data from store
 ```js
 const counter = useSelector(state => state.counter);
 ```
 &nbsp;
 
-*import `{ useDispatch }` from 'react-redux'; 
-> reference to dispatch actions function*
+*import `{ useDispatch }` from 'react-redux'; *
+> reference to dispatch actions function
 ```js
 <button onClick={() => dispatch(increment())}>+</button>
 ```
