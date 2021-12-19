@@ -50,7 +50,7 @@ const counter = useSelector(state => state.counter);
 ```
 &nbsp;
 
-*import `{ useDispatch }` from 'react-redux'; *
+*import `{ useDispatch }` from 'react-redux';*
 > reference to dispatch actions function
 ```js
 <button onClick={() => dispatch(increment())}>+</button>
